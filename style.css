@@ -1,0 +1,73 @@
+/* font styles */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+}
+
+.hero-section-container {
+  width: 1440px;
+  height: 652px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url(./assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section {
+  width: 998px;
+  height: 582px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hero-section img {
+  width: 240.28px;
+  height: 240px;
+  margin-top: 26px;
+}
+
+.hero-section h1 {
+  width: 998px;
+  height: 136px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  font-size: 48px;
+  color: rgb(13, 19, 33);
+}
+
+.hero-section p {
+  width: 998px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  font-size: 16px;
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.hero-section button {
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  font-size: 20px;
+  color: white;
+}

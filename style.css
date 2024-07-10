@@ -123,6 +123,11 @@ body {
   -o-border-radius: 5px;
   padding: 10px;
   background-color: white;
+  text-decoration: none;
+}
+
+.btn-secondary a {
+  text-decoration: none;
 }
 
 .wd-section-1 {
@@ -194,6 +199,60 @@ body {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+/* target section */
+
+.target{
+  width: 79.67%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.target-text {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.target-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.target-1{
+  background-color: #FFF6FA;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.target-2{
+  background-color: #F2F6FE;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+}
+
+.target-3{
+  background-color: #FFFDF2;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
 }
 
 /* handshake section */

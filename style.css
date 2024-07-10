@@ -83,52 +83,99 @@ body {
 /* handshake section */
 
 .handshake {
-  width: 1140px;
   height: 314px;
+  width: 79.67%;
   margin: 0 auto;
   background-image: url(./assets/handshake.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.handshake-text {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.handshake-text h2 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.handshake-text p {
+  width: 50%;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+}
+
+.input-section input {
+  width: 548px;
+  height: 57px;
+  border: 2px solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button-primary {
+  width: 120px;
+  height: 57px;
+  padding: 16px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
 /* footer section */
 
 .footer-section-container {
   background-color: #f7f8f8;
-}
-
-.footer-section {
-  background-color: #fff;
   width: 1440px;
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.footer-section h2 {
-  font-weight: normal;
-  font: 20px;
+.footer-section-text {
+  background-color: #fff;
+  font-weight: 200;
+  font: 16px;
 }
 
-.footer-section ul {
+.footer-section-link ul {
   display: flex;
   justify-content: space-around;
-  gap: 24px;
+  align-items: center;
+  gap: 12px;
 }
 
-.footer-section ul li {
+.footer-section-link ul li {
   list-style: none;
 }
 
-.footer-section ul li a {
+.footer-section-link ul li a {
   text-decoration: none;
 }
-
-.footer-section ul li i {
-  width: 36px;
-  height: 36px;
-}
-

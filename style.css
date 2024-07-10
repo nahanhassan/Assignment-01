@@ -11,6 +11,8 @@ body {
   background-color: #ffffff;
 }
 
+/* header section */
+
 .hero-section-container {
   width: 1440px;
   height: 652px;
@@ -71,3 +73,62 @@ body {
   font-size: 20px;
   color: white;
 }
+
+.hero-section button a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* handshake section */
+
+.handshake {
+  width: 1140px;
+  height: 314px;
+  margin: 0 auto;
+  background-image: url(./assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+/* footer section */
+
+.footer-section-container {
+  background-color: #f7f8f8;
+}
+
+.footer-section {
+  background-color: #fff;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-section h2 {
+  font-weight: normal;
+  font: 20px;
+}
+
+.footer-section ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.footer-section ul li {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+}
+
+.footer-section ul li i {
+  width: 36px;
+  height: 36px;
+}
+
